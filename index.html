@@ -4,21 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
         Rock Paper Scissors
     </div>
+    <div class="content">
 
     <div class="userchoices">
-      <div class="rock">🪨</div>
-      <div class="paper">📄</div>
-      <div class="scissors">✂️</div>
+     <div class="choice">
+       <button id="rock">🪨</button>
+       <span>Rock</span>
+    </div>
+     <div class="choice">
+       <button id="paper">📄</button>
+       <span>Paper</span>
+    </div>
+     <div class="choice">
+       <button id="scissors">✂️</button>
+         <span>Scissors</span>
+    </div>
     </div>
 
     <div class="result"></div>
 
+    </div>
     <div class="footer">Copyright &copy; ShabirAhmadLinux & The Odin Project</div>
 </body>
 </html>

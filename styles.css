@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    margin:0;
+   font-family: "Press Start 2P", cursive;
+}
+.content{
+    flex:1;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(76, 2, 2);
+    padding: 16px;
+    background-color: rgb(237, 218, 110);
+    
+}
+.choice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.choice button{
+ height:169px;
+ width: 169px;
+ font-size: 120px;
+ background-color: blanchedalmond;
+ border: 1px solid black;
+ border-radius: 10px;
+}
+.userchoices{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:69px;
+   padding-top: 200px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    background-color: rgb(246, 231, 134);
+}

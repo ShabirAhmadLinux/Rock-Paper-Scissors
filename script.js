@@ -59,19 +59,3 @@ function playRound(humanChoice, computerChoice) {
         }
     }
 }
-function playGame() {
-    playRound(getHumanChoice(), getComputerChoice());
-    playRound(getHumanChoice(), getComputerChoice());
-    playRound(getHumanChoice(), getComputerChoice());
-    playRound(getHumanChoice(), getComputerChoice());
-    playRound(getHumanChoice(), getComputerChoice());
-    console.log(`Human Score: ${humanScore}`);
-    console.log(`Computer Score:${computerScore}`);
-    if (humanScore > computerScore) {
-        console.log("You win!");
-    }
-    else {
-        console.log("You Lose");
-    }
-}
-playGame()
